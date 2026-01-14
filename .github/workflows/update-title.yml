@@ -2,7 +2,7 @@ name: Update YouTube Title
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes (changed from */10)
+    - cron: '*/7 * * * *'  # Every 7 minutes
   
   workflow_dispatch:
 
