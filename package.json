@@ -1,0 +1,16 @@
+{
+  "name": "youtube-title-updater",
+  "version": "1.0.0",
+  "description": "Automatically update YouTube video title with view count",
+  "main": "update-title.js",
+  "scripts": {
+    "start": "node update-title.js",
+    "auth": "node authenticate.js"
+  },
+  "keywords": ["youtube", "automation"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^128.0.0"
+  }
+}
